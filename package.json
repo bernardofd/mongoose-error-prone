@@ -1,0 +1,22 @@
+{
+  "name": "mongoose-error-prone",
+  "version": "0.0.0",
+  "description": "A test to detect a circular dependency error on mongoose.js",
+  "main": "userSpec.js",
+  "dependencies": {
+    "mongoose": "~3.5.6",
+    "sandboxed-module": "~0.2.0",
+    "pow-mongodb-fixtures": "git://github.com/bernardofd/pow-mongodb-fixtures.git"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "jasmine-node --verbose userSpec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/bernardofd/mongoose-error-prone.git"
+  },
+  "author": "Bernardo F. Domingues (bernardofd AT gmail DOT com)",
+  "license": "WTFPL",
+  "readmeFilename": "README.md"
+}
